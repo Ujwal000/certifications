@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.label {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.save-button {
+  background-color: violet;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+}
